@@ -65,4 +65,5 @@ int main(int argc, char** argv)
 		printf("Size: %d bytes\n", pSectionContext->dwSize);
 	}
 	PEFreeCtx(Context);
+	HeapFree(hProcHeap, 0, pFileBuf);
 }
