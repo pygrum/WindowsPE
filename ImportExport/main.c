@@ -69,7 +69,7 @@ int main(int argc, char** argv)
 	
 	if (Context->ImportCtxList)
 	{
-		printf("\nImports (%d)\n=======", Context->ImportCtxList->ImportCount);
+		printf("\nImports\n=======");
 		for (pImportContext = Context->ImportCtxList; pImportContext != NULL; pImportContext = pImportContext->Next)
 		{
 			printf("\n");
