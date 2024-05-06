@@ -12,11 +12,11 @@ Location: `/PEFormat`
 
 In the corresponding [post](https://pygrum.github.io/posts/understanding-windows-pe-1-pe-format/) for this project, we wrote a simple command line application to extract useful information from a provided PE file.
 
-### How to use
+## ImportExport
 
-1. Open solution in Visual Studio
-2. Build
-3. Inspect usage by running `PEFormat.exe`
+Location: `/ImportExport`
+
+ImportExport is an extension of [PEFormat](#PEFormat) where we add functionality to parse imported and exported functions from PE headers. The full write-up is covered in [this blog post](https://pygrum.github.io/posts/understanding-windows-pe-2-imports-exports).
 
 ## Disclaimer
 
